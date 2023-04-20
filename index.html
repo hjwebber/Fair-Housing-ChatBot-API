@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery.terminal/js/jquery.terminal.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jquery.terminal/css/jquery.terminal.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;800&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&family=Playfair+Display:wght@400;600;800&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Know your housing rights</title>
+</head>
+
+<body>
+    <header>
+
+        <h1>Know Your Housing Rights <br>with the power of AI</h1>
+
+    </header>
+    <section class="row">
+
+        <div class="about">
+
+            <h2>About</h2>
+            <p>I was inspired to develop this website as a tool for housing navigation from my prior experience as a
+                Housing Specialist at a non-profit where my role was to assist individuals experiencing
+                homelessness in obtaining long-term housing.
+                This web application was created to assist those with limited resources in communicating their needs for
+                housing to their
+                landlords, whether it be drafting a well-written letter of a tenant's rights violation, a letter of
+                advocacy for an individual with a criminal background, or just answering general fair housing questions.
+                Users can copy and paste the AI-generated responses in their correspondents to their landlord or housing
+                provider. Tenant rights are frequently overlooked simply because tenants do not know their rights or
+                how
+                to properly communicate their concerns to their housing providers, and they oftentimes fall back into a
+                cycle
+                of homelessness because of it.</p>
+        </div>
+
+        <div class="what-is-it">
+            <h2>What exactly does this website do?</h2>
+            <p> This site uses artificial intelligence from ChatGPT's API to generate letter templates, housing
+                resources, or answer general housing law questions. The below templates are prompts that I have used
+                directly with my past clients.
+            </p>
+        </div>
+
+        <div class="how-to-use">
+            <h2>How to use:</h2>
+            <p>Copy and paste the question template into the terminal below, change any necessary details specific to
+                your situation, and hit enter. Use the response for your own benefit!
+            </p>
+        </div>
+
+    </section>
+
+    <div class="terminal-container">
+        <div id="terminal"></div>
+    </div>
+
+    <section class="template-section">
+        <h2>Suggested Question Templates:</h2>
+
+        <ul class="questions-container">
+
+            <li>
+                <!--
+                <button type="button">
+                    <span class="material-icons">content_copy</span>
+                </button>-->
+                What is the rent control law in [insert your city, state]
+
+            </li>
+
+            <li> Write a general letter to my potential landlord explaining why I would be a good tenant.
+            </li>
+
+            <li>[insert your housing voucher program] is paying for my rent. Write a letter to my potential
+                landlord
+                explaining that.
+            </li>
+
+            <li>Write a letter of advocacy to my potential landlord. I have a criminal background with a
+                [insert your
+                criminal charge] charge.
+            </li>
+
+            <li>Write a persuasive email addressed to my potential landlord explaining why they should select a
+                tenant
+                enrolled in [insert housing voucher provider/program] instead of someone who is not enrolled in [insert
+                housing voucher provider/program]
+            </li>
+
+            <li>What are the ADA laws for rental units in [City, State]
+            </li>
+
+            <li>My rental unit is not compliant with ADA regulations. Write a letter to my landlord or property
+                manager
+                adressing these concerns.
+            </li>
+
+            <li>I feel that my landlord is discriminating against me because of [insert reason]. Write a letter
+                to my
+                landlord addressing this.
+            </li>
+
+            <li>What is the law for a landlord to return a security deposit in [city, state]?
+            </li>
+
+            <li>My landlord has not returned my security deposit. I live in [city, state]. Write a letter to my
+                landlord
+                adressing this.
+            </li>
+        </ul>
+    </section>
+
+    <footer>Web design by Hailey Webber</footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
